@@ -1,5 +1,7 @@
 # Employee API (Flask)
 
+
+
 This project is a simple **Employee Management REST API** built with **Flask** and **Flask‑SQLAlchemy**, featuring:
 
 - **User registration and login** with hashed passwords (`bcrypt`)
@@ -15,7 +17,14 @@ This project is a simple **Employee Management REST API** built with **Flask** a
 
 ## Installation
 
-1. **Create and activate a virtual environment**:
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Shivani-Chauhan-Dev/employee_api_task.git
+   cd employee_api_task
+   ```
+
+2. **Create and activate a virtual environment**:
 
    ```bash
    python -m venv .venv
@@ -23,7 +32,7 @@ This project is a simple **Employee Management REST API** built with **Flask** a
    # source .venv/bin/activate  # Linux / macOS
    ```
 
-2. **Install dependencies** from `requirements.txt`:
+3. **Install dependencies** from `requirements.txt`:
 
    ```bash
    pip install -r requirements.txt

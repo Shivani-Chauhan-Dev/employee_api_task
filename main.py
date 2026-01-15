@@ -203,7 +203,7 @@ def delete_employee(emp_id):
 
     db.session.delete(emp)
     db.session.commit()
-    return "employees deleted ", 204  # No Content
+    return jsonify("employees deleted "), 204 
 
 
 # ---------------- MAIN ----------------
